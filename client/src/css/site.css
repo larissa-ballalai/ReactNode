@@ -1,0 +1,312 @@
+/* fontes */
+@font-face {
+  font-family: Alef;
+  src: url(../fonts/Alef-Regular.ttf);
+}
+@font-face {
+  font-family: PoetsenOne-regular;
+  src: url(../fonts/PoetsenOne-Regular.ttf);
+}
+@font-face {
+  font-family: Rubik-light;
+  src: url(../fonts/Rubik-Light.ttf);
+}
+@font-face {
+  font-family: Rubik-bold;
+  src: url(../fonts/Rubik-Bold.ttf);
+}
+@font-face {
+  font-family: Rubik-medium;
+  src: url(../fonts/Rubik-Medium.ttf);
+}
+@font-face {
+  font-family: Rubik;
+  src: url(../fonts/Rubik-Regular.ttf);
+}
+@font-face {
+  font-family: Open-bold;
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: Open sans;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Open semi-bold;
+  src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+.f-p {
+  font-family: PoetsenOne-Regular !important;
+}
+
+/* 1. CSS PADRAO */
+/* cores */
+.cl-g1 {
+  color: #72dfc2;
+}
+.cl-b {
+  color: #4ca7ea;
+}
+.cl-p {
+  color: #a466e5;
+}
+.cl-o {
+  color: #f28974;
+}
+.cl-tl-3 {
+  color: #6e798c;
+}
+
+/* background-color */
+.bg-b {
+  background: linear-gradient(360deg, #4ca7ea -3.62%, #5fcff6 88.96%);
+}
+.bg-o {
+  background: linear-gradient(360deg, #f37e70 -3.62%, #f49a7a 88.96%);
+}
+.bg-p {
+  background: linear-gradient(360deg, #d15bde -3.62%, #a466e5 88.96%);
+}
+.bg-g {
+  background: linear-gradient(360deg, #33c4bf -3.62%, #7de4c3 88.96%);
+}
+
+/* border corda */
+.bd-p {
+  border-left: 5px solid #ad63e3;
+}
+.bd-b {
+  border-left: 5px solid #4ca7ea;
+}
+.bd-o {
+  border-left: 5px solid #f28974;
+}
+.bd-g {
+  border-left: 5px solid #38c6bf;
+}
+
+/* cores stop */
+.tstop {
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-family: PoetsenOne-Regular !important;
+}
+.cstop-g {
+  color: #35c5bf;
+}
+.cstop-o {
+  color: #f36868;
+}
+.cstop-p {
+  color: #d77ae3;
+}
+.cstop-b {
+  color: #4ba5e9;
+}
+/* ========xx==== */
+
+/* border bola */
+.bdb-p {
+  border: 6px solid #ad63e3;
+  background-color: #dba4f0;
+}
+.bdb-b {
+  border: 6px solid #4ca7ea;
+  background-color: #5fcff6;
+}
+.bdb-o {
+  border: 6px solid #f28974;
+  background-color: #f6a98e;
+}
+.bdb-g {
+  border: 6px solid #38c6bf;
+  background-color: #7ae3c2;
+}
+/* ========xx==== */
+
+/* sentenca */
+/* multplechoice */
+.stm1 {
+  font-size: 18px;
+  color: #445359;
+}
+/* sentence principal */
+.st2 {
+  font-size: 25px;
+  color: #445359 !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* label */
+.st3 {
+  font-size: 13px;
+  margin-top: 20px;
+  font-family: Alef;
+  color: #7f7f92 !important;
+  letter-spacing: 0.1px;
+}
+/* title */
+/* titulo principal */
+.tl-1 {
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: PoetsenOne-Regular !important;
+  line-height: 36px;
+}
+.tl-2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+/* cor titulo padrao */
+.spc {
+  color: #5a98d0;
+}
+.tblue {
+  color: #1b5183;
+}
+.h1-t {
+  font-size: 49px;
+  line-height: 57px;
+  font-family: PoetsenOne-Regular !important;
+}
+
+/* === */
+.corda {
+  top: -50px;
+  height: 290px;
+  position: absolute;
+  z-index: 1;
+}
+.bola {
+  box-sizing: border-box;
+  z-index: 1;
+  border-radius: 50%;
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  top: 280px;
+}
+
+/* classes help */
+.h-q {
+  height: 200px;
+}
+.t-q {
+  top: 200px;
+}
+
+.b-l {
+  left: -14px;
+}
+
+.b-r {
+  right: -9px;
+}
+
+.cr-l {
+  left: 200px;
+}
+
+.cr-r {
+  right: 200px;
+}
+
+/* shadow */
+.sha {
+  box-shadow: 6px 6px 46px 4px rgba(0, 0, 0, 0.1) !important;
+}
+.radius {
+  border-radius: 10px;
+}
+
+/* botoes principais */
+.btn-p {
+  border-radius: 30px !important;
+  font-size: 14px !important;
+  padding: 11px 55px !important;
+  color: #fff !important;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 3px 0px #a49e9e94 !important;
+  font-weight: 400;
+  position: relative;
+  border: 0;
+}
+.grad-mains {
+  background: linear-gradient(270.02deg, #3a8de4 -0.06%, #2973c2 121.82%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* ====login=== */
+.hb-l {
+  color: #356ead !important;
+  font-size: 15px;
+  line-height: 50px;
+  letter-spacing: 1%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.card {
+  border: none;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
+  margin-bottom: 5px;
+  width: 100%;
+}
+.loginblock {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)
+  ) !important;
+  border-radius: 20px !important;
+}
+
+/*====== intro ======*/
+
+/* paragrafos card  */
+.p-main {
+  font-size: 13px;
+  line-height: 19px;
+  text-align: left;
+  color: #081f32;
+  font-family: Open sans;
+}
+/* titulo cards */
+.t-i {
+  font-size: 11px;
+  line-height: 15px;
+  color: #6e798c;
+  text-transform: uppercase;
+  text-align: left !important;
+}
+/* paragrafos  */
+.p2 {
+  line-height: 29px;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  color: #374a59;
+  font-family: Open sans;
+  margin: auto;
+}
+
+/* =====start===== */
+/* label */
+.start {
+  font-size: 14px;
+  color: #4e4e4e;
+  line-height: 43px !important;
+  font-family: Rubik;
+}
+.t0 {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 15px;
+  color: #6e798c;
+}
